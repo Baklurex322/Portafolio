@@ -1,0 +1,116 @@
+*{
+font-family: "Unkempt", cursive  !important;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.unkempt-bold {
+  font-family: "Unkempt", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+html{
+    background-color: #c0adec;
+    font-size: 1.5rem;
+}
+section{
+    border-width: 5px;
+    border-color: aliceblue;
+    border-style: dashed;
+    margin-left: 5vw;
+    margin-top: 50px;
+
+    display: flex;
+    height: 600px;
+    width: 90vw;
+
+    margin-bottom: 70px;
+    
+}
+#info1{
+width: 40%;
+height: 100%;
+
+border-style: dotted;
+border-color: aliceblue;
+border-width: 0 10px 0 0;
+}
+#info2{
+width: 60%;
+height: 100%;
+}
+
+.flexInfo{
+    display: flex;
+        flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.textoInfo{
+    padding: 50px;
+}
+.name{
+    color: aliceblue;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.iconos{
+    margin-right: 30px;
+}
+
+.centrar{
+    justify-self: center;
+    margin-bottom: 70px;
+}
+button{
+    height: 70px;
+    background-color: #7f6aaf;
+    color: aliceblue;
+}
+button:hover{
+    background: rgb(106, 62, 117);
+    transform: scale(1.05);
+    transition: .5s;
+}
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 20px;
+}
+
+#popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    background: rgba(0,0,0,0.8);
+
+    display: none;
+
+    justify-content: center;
+    align-items: center;
+
+    z-index: 9999;
+}
+
+#popup img{
+    width: 500px;
+    border-radius: 20px;
+}
+
+#popup span{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
